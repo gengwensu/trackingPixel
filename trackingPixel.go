@@ -22,7 +22,7 @@ type AppContext struct {
 	FileHandler *os.File       // file handler
 }
 
-const base64GifPixel = "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+const base64GifPixel = "R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" //1x1 transparant gif
 
 func main() {
 	outFile := flag.String("outfile", "scrap.txt", "output file for scrape results")
